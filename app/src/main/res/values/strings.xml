@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">" kode.kinopoisk.Nasaev"</string>
+    <string name="app_default_title">Выберите город</string>
+    <string name="choose_city">Выбрать город</string>
+    <string name="sort_by_rating">Сортировать по рейтингу</string>
+    <string name="filter_by_genre">Искать фо жанру</string>
+    <string name="intent_key">com.kodekinopoisknasaev</string>
+</resources>

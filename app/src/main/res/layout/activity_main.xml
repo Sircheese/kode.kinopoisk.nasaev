@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/sortCheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Сортировать по рейтингу"
+        android:background="#dddddd"
+        android:onClick="onSortCheckBoxClick"/>
+
+    <ListView
+        android:id="@+id/filmsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="2dp"
+        android:divider="#333333">
+    </ListView>
+
+</LinearLayout>
